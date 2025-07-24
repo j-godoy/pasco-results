@@ -1,5 +1,0 @@
-Subject: ReentranceReentrancyFixed-Mode.epa
-Total time: 11655.114103078842
-# Time Out: 18
-# Corral Fail without trackvars: 0
-# Corral Fail with trackvars: 0

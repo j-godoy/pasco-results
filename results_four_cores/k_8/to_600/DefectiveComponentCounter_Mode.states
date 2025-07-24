@@ -1,6 +1,0 @@
-// DefectiveComponentCounter.sol
-digraph {
-	init [label=init]
-	"1-0-" [label=Create]
-	init -> "1-0-" [label=constructor]
-}

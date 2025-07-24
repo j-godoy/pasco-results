@@ -1,5 +1,0 @@
-Subject: ReentranceReentrancy-Mode.epa
-Total time: 3998.8835430145264
-# Time Out: 6
-# Corral Fail without trackvars: 0
-# Corral Fail with trackvars: 0

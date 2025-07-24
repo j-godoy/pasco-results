@@ -1,5 +1,0 @@
-Subject: RockPaperScissors-Mode.states
-Total time: 158.28685998916626
-# Time Out: 0
-# Corral Fail without trackvars: 0
-# Corral Fail with trackvars: 0

@@ -1,5 +1,0 @@
-Subject: RoomThermostat-Mode.states
-Total time: 19.193528413772583
-# Time Out: 0
-# Corral Fail without trackvars: 0
-# Corral Fail with trackvars: 0

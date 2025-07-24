@@ -1,5 +1,0 @@
-Subject: EPXCrowdsale-Mode.states
-Total time: 441.74885392189026
-# Time Out: 0
-# Corral Fail without trackvars: 0
-# Corral Fail with trackvars: 0

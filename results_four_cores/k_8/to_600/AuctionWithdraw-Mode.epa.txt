@@ -1,5 +1,0 @@
-Subject: AuctionWithdraw-Mode.epa
-Total time: 40.65819597244263
-# Time Out: 0
-# Corral Fail without trackvars: 0
-# Corral Fail with trackvars: 0
