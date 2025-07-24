@@ -1,0 +1,38 @@
+txBound in config ignored. Using txBound=16
+time_out in config ignored. Using time_out=600.0
+Configuration: Simple_daoReentrancyFixed_lockConfig
+Modes: ['epa']
+File Name: Contracts\Simple_daoReentrancyFixed_lock.sol
+Contract Name: SimpleDAO
+txBound: 16
+time_out: 600.0
+Folder to store results: graph/k_16/to_600/
+Verbose: False
+Reduce States: True
+Reduce True: True
+Reduce Equal: True
+Track All Vars: True
+Max Cores: 8
+Function Variables: address to, uint amount, address A
+Functions: ['donate(to);', 'withdraw_Init(amount);', 'withdraw_End();', 'dummy_balanceGTZero();', 'dummy_balanceAGTZero();']
+
+STARTING RUN IN MODE: Mode.epa
+Number potential states: 16
+Reducing combinations...
+Starting task reduceCombinations for '16' states
+Executing 16 tasks in parallel - execute_try_command_in_parallel_reduce
+Reducing combinations Ended.
+Number reachable states: 7
+Starting task validCombinations for '7' states
+Executing 168 tasks in parallel - execute_try_command_in_parallel_reduce
+Ended ValidCombinations
+
+Starting execute_try_command_in_parallel for 7 functions
+Ended try_init
+
+PROCESS ENDED
+
+Total time: 2448.438723564148
+# Time Out: 21
+# Corral Fail without trackvars: 0
+# Corral Fail with trackvars: 0

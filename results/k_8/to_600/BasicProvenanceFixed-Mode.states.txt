@@ -1,0 +1,5 @@
+Subject: BasicProvenanceFixed-Mode.states
+Total time: 12.715750694274902
+# Time Out: 0
+# Corral Fail without trackvars: 0
+# Corral Fail with trackvars: 0

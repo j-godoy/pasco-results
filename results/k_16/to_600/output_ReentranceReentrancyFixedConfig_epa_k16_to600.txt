@@ -1,0 +1,38 @@
+txBound in config ignored. Using txBound=16
+time_out in config ignored. Using time_out=600.0
+Configuration: ReentranceReentrancyFixedConfig
+Modes: ['epa']
+File Name: Contracts\ReentranceReentrancyFixed.sol
+Contract Name: Reentrance
+txBound: 16
+time_out: 600.0
+Folder to store results: graph/k_16/to_600/
+Verbose: False
+Reduce States: True
+Reduce True: True
+Reduce Equal: True
+Track All Vars: True
+Max Cores: 8
+Function Variables: uint _amount, address _to
+Functions: ['donate(_to);', 'withdraw_Init(_amount);', 'withdraw_End();', 'dummy_balanceGTZero();', 'dummy_balanceAGTZero();']
+
+STARTING RUN IN MODE: Mode.epa
+Number potential states: 16
+Reducing combinations...
+Starting task reduceCombinations for '16' states
+Executing 16 tasks in parallel - execute_try_command_in_parallel_reduce
+Reducing combinations Ended.
+Number reachable states: 6
+Starting task validCombinations for '6' states
+Executing 114 tasks in parallel - execute_try_command_in_parallel_reduce
+Ended ValidCombinations
+
+Starting execute_try_command_in_parallel for 6 functions
+Ended try_init
+
+PROCESS ENDED
+
+Total time: 1242.7962057590485
+# Time Out: 10
+# Corral Fail without trackvars: 0
+# Corral Fail with trackvars: 0

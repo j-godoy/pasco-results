@@ -1,0 +1,38 @@
+txBound in config ignored. Using txBound=16
+time_out in config ignored. Using time_out=600.0
+Configuration: EtherstoreReentrancyFixed_lockConfig
+Modes: ['epa']
+File Name: Contracts\EtherstoreReentrancyFixed_lock.sol
+Contract Name: EtherStore
+txBound: 16
+time_out: 600.0
+Folder to store results: graph/k_16/to_600/
+Verbose: False
+Reduce States: True
+Reduce True: True
+Reduce Equal: True
+Track All Vars: True
+Max Cores: 8
+Function Variables: uint _weiToWithdraw, address A, uint _time
+Functions: ['depositFunds();', 'withdrawFunds_Init(_weiToWithdraw);', 'withdrawFunds_End();', 't(_time);', 'dummy_balanceGTZero();', 'dummy_balanceAGTZero();']
+
+STARTING RUN IN MODE: Mode.epa
+Number potential states: 32
+Reducing combinations...
+Starting task reduceCombinations for '32' states
+Executing 32 tasks in parallel - execute_try_command_in_parallel_reduce
+Reducing combinations Ended.
+Number reachable states: 7
+Starting task validCombinations for '7' states
+Executing 189 tasks in parallel - execute_try_command_in_parallel_reduce
+Ended ValidCombinations
+
+Starting execute_try_command_in_parallel for 7 functions
+Ended try_init
+
+PROCESS ENDED
+
+Total time: 2450.4482271671295
+# Time Out: 21
+# Corral Fail without trackvars: 0
+# Corral Fail with trackvars: 0
